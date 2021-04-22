@@ -1,0 +1,29 @@
+# Welcome to the GarudaCBT wiki!
+
+###  I. REQUIREMENTS
+- XAMPP dengan PHP 7.2 ke atas
+
+
+### II. PERSIAPAN
+- Install Xampp jika belum ada
+- Buat folder dengan nama **garudacbt** di C:/xampp/htdocs (_asumsi xampp terinstall di partisi C:_)
+- Ekstrak file hasil download ke dalam folder **garudacbt**
+
+### III. DATABASE
+- masuk ke phpmyadmin via browser, http://localhost/phpmyadmin
+- buat database di phpmyadmin dengan nama apa saja, misal garuda_cbt
+- dari database baru tersebut, import file master.sql yang berada di dalam folder assets/app/db
+- buka file application/config/database.php menggunakan notepad atau notepad++
+- sesuaikan pengaturannya seperti ini : `'hostname' => 'localhost'`, `'username' => 'sesuai username database, defaultnya root'`, `'password' => 'sesuai password databasae, defaultnya kosongkan'`, `'database' => 'garuda_cbt (sesuaikan dengan nama database yang dibuat pada langkah diatas)'`
+- simpan database.php lalu tutup
+
+### IV. ADMINISTRATOR & PROFIL SEKOLAH
+- jalankan aplikasi melalui browser, http://localhost/garuda/cbt
+- otomatis akan membuka installer aplikasi seperti ini 
+- klik **Install Sekarang**
+- biarkan STEP DATABASE seperti adanya, langsung ke STEP ADMINISTRATOR, klik SELANJUTNYA
+- isi nama admin, username dan password, PASSWORD minimal 6 karakter, klik SELANJUTNYA
+- pada STEP ini isian yang ditandai bintang harus diisi, jika sudah diisi semua, klik SELANJUTNYA
+- STEP terakhir pengecekan, pastikan semuanya sudah sesuai dengan keharusan dan keinginan, klik MULAI APLIKASI
+- silahkan login dengan akun administrator yang telah dibuat
+
