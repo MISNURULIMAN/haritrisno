@@ -20,10 +20,18 @@
 ### IV. ADMINISTRATOR & PROFIL SEKOLAH
 - jalankan aplikasi melalui browser, http://localhost/garuda/cbt
 - otomatis akan membuka installer aplikasi seperti ini 
+- ![step 1](https://github.com/garudacbt/cbt/blob/master/install1.PNG) 
 - klik **Install Sekarang**
-- biarkan STEP DATABASE seperti adanya, langsung ke STEP ADMINISTRATOR, klik SELANJUTNYA
-- isi nama admin, username dan password, PASSWORD minimal 6 karakter, klik SELANJUTNYA
-- pada STEP ini isian yang ditandai bintang harus diisi, jika sudah diisi semua, klik SELANJUTNYA
-- STEP terakhir pengecekan, pastikan semuanya sudah sesuai dengan keharusan dan keinginan, klik MULAI APLIKASI
+- biarkan STEP DATABASE seperti adanya, langsung ke STEP ADMINISTRATOR
+- ![step 1](https://github.com/garudacbt/cbt/blob/master/install2.PNG) 
+- klik SELANJUTNYA
+- isi nama admin, username dan password, PASSWORD minimal 6 karakter
+- ![](https://github.com/garudacbt/cbt/blob/master/install3.PNG)
+- klik SELANJUTNYA
+- pada STEP ini isian yang ditandai bintang harus diisi, jika sudah diisi semua
+- ![](https://github.com/garudacbt/cbt/blob/master/install4.PNG)
+- klik SELANJUTNYA
+- STEP terakhir pengecekan, pastikan semuanya sudah sesuai dengan keharusan dan keinginan
+- klik MULAI APLIKASI
 - silahkan login dengan akun administrator yang telah dibuat
 
