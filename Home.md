@@ -28,7 +28,7 @@
 - isi nama admin, username dan password, PASSWORD minimal 6 karakter
 - ![](https://github.com/garudacbt/cbt/blob/master/install3.PNG)
 - klik SELANJUTNYA
-- pada STEP ini isian yang ditandai bintang harus diisi, jika sudah diisi semua
+- pada STEP ini isian yang ditandai bintang harus diisi
 - ![](https://github.com/garudacbt/cbt/blob/master/install4.PNG)
 - klik SELANJUTNYA
 - STEP terakhir pengecekan, pastikan semuanya sudah sesuai dengan keharusan dan keinginan
