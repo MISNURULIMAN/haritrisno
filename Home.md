@@ -12,13 +12,23 @@
 ### III. DATABASE
 - masuk ke phpmyadmin via browser, http://localhost/phpmyadmin
 - buat database di phpmyadmin dengan nama apa saja, misal garuda_cbt
-- dari database baru tersebut, import file master.sql yang berada di dalam folder assets/app/db
 - buka file application/config/database.php menggunakan notepad atau notepad++
 - sesuaikan pengaturannya seperti ini : `'hostname' => 'localhost'`, `'username' => 'sesuai username database, defaultnya root'`, `'password' => 'sesuai password databasae, defaultnya kosongkan'`, `'database' => 'garuda_cbt (sesuaikan dengan nama database yang dibuat pada langkah diatas)'`
 - simpan database.php lalu tutup
 
-### IV. ADMINISTRATOR & PROFIL SEKOLAH
-- jalankan aplikasi melalui browser, http://localhost/garuda/cbt
+### IV. IMPORT DATABASE
+Database import otomatis:
+- Buka url aplikasi, http://localhost/nama_aplikasi, misal : http://localhost/garuda_cbt
+- halaman otomatis akan diarahkan ke installasi, atau langsung akses ke http://localhost/garuda_cbt/install
+- ikuti langkah installasi
+
+Database import manual:
+- masuk ke phpmyadmin via browser, http://localhost/phpmyadmin
+- dari database yang baru dibuat, import file master.sql yang berada di dalam folder assets/app/db
+- setelah selesai import, jalankan aplikasi
+
+### V. ADMINISTRATOR & PROFIL SEKOLAH
+- jalankan aplikasi melalui browser, http://localhost/garuda_cbt
 - otomatis akan membuka installer aplikasi seperti ini 
 - ![step 1](https://github.com/garudacbt/cbt/blob/master/install1.PNG) 
 - klik **Install Sekarang**
